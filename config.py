@@ -63,7 +63,7 @@ MANAGERS = {
         'username': 'ASDSDA88'
     },
     'education': {
-        'name': 'Скуп',
+        'name': 'Обучение',
         'username': 'PROF_HARDI'
     }
 }
