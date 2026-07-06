@@ -3,7 +3,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-BOT_TOKEN = os.getenv("8768438638:AAGWgS28BfiAwkdhxMzXPKY9e4uIu3j9fM0")
+BOT_TOKEN = os.getenv "8768438638:AAGWgS28BfiAwkdhxMzXPKY9e4uIu3j9fM0"
 
 COMPANY_INFO = {
     'name': 'FreaksServis',
