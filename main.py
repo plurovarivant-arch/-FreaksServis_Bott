@@ -49,7 +49,7 @@ def get_main_menu() -> InlineKeyboardMarkup:
     
     keyboard.append([InlineKeyboardButton(
         text="💰 Скуп товаров",
-        url="https://t.me/PROFIT_ASD"
+        url="https://t.me/PROF_HARDI"
     )])
     
     keyboard.append([InlineKeyboardButton(
@@ -59,7 +59,7 @@ def get_main_menu() -> InlineKeyboardMarkup:
     
     keyboard.append([InlineKeyboardButton(
         text="📚 Обучение",
-        url="https://t.me/PROFIT_ASD"
+        url="https://t.me/PROF_HARDI"
     )])
     
     return InlineKeyboardMarkup(keyboard)
@@ -82,7 +82,7 @@ async def button_callback(update: Update, context: ContextTypes.DEFAULT_TYPE) ->
         if service_key in SERVICES:
             service = SERVICES[service_key]
             manager = MANAGERS.get(service_key, {})
-            username = manager.get('username', 'freakservis')
+            username = manager.get('username', 'f_ran_kli_n')
             
             message = f"""{service['emoji']} {service['name']}
 
