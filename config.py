@@ -3,16 +3,16 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-BOT_TOKEN = os.getenv "8768438638:AAGWgS28BfiAwkdhxMzXPKY9e4uIu3j9fM0"
+BOT_TOKEN = "8768438638:AAGWgS28BfiAwkdhxMzXPKY9e4uIu3j9fM0"
 
 COMPANY_INFO = {
     'name': 'FreaksServis',
     'description': """Мы предоставляем полный спектр услуг в сфере:
-- Дроп-сервис
-- Отрисовки и дизайна
-- Скупки товаров
-- Услуги Boxera
-- Профессионального обучения
+• Дроп-сервис
+• Отрисовки и дизайна
+• Скупки товаров
+• Услуги Boxera
+• Профессионального обучения
 
 Обратитесь к нашим менеджерам для получения подробной информации о каждой услуге!"""
 }
@@ -34,7 +34,7 @@ SERVICES = {
         'description': ''
     },
     'boxing': {
-        'name': 'Услуги Boxera',
+        'name': 'Услуги Boxера',
         'emoji': '📦',
         'description': ''
     },
@@ -71,4 +71,4 @@ MANAGERS = {
 ARTICLE_LINK = "https://telegra.ph/INFO-07-04-60"
 PRICE_LINK = "https://telegra.ph/Tarify-na-priyom-posylok-07-05"
 
-DEBUG = os.getenv("DEBUG", "False").lower() == "true"
+DEBUG = False
